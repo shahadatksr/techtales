@@ -4,7 +4,7 @@ export default async (req, res) => {
     if (req.method === 'POST') {
         // Process a POST request
         const reqBody = req.body
-        const resBody = await fetch('https://strapiku-atlas.herokuapp.com/auth/local/', {
+        const resBody = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/auth/local/`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

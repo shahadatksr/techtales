@@ -18,7 +18,7 @@ export default function register() {
             email: email,
             password: password,
         }
-        const res = await fetch('https://strapiku-atlas.herokuapp.com/auth/local/register', {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/auth/local/register`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
