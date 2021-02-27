@@ -1,0 +1,135 @@
+.featured{
+    width:100%;
+    max-width:600px;
+    display:flex;
+    align-items: flex-start;
+  }
+  
+  .post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -60px;
+    background-color: var(--bg);
+    color: var(--fglt);
+    width: 94%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px -30px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 100px -30px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 100px -30px rgba(0,0,0,0.75);
+  
+  }
+
+
+  /* .post:not(pre,code){
+    color: var(--fg);
+  } */
+  
+  .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    /* padding: 0% 5%; */
+  }
+  
+  .post_container {
+    /* padding: 2rem; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg);
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    
+  }
+  
+  .post_container img{
+    padding-top: 80px;
+    width:100%;
+    max-width:600px;
+  }
+  
+  .post_container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+  
+  
+  .content{
+    display: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+  }
+  
+  
+  
+  @media only screen and (min-width: 800px) {
+    /* body {
+      background-color: lightblue;
+    } */
+  
+    .post{
+      margin-top: -260px;
+    } 
+    
+    .post_container{
+      padding: 0% 10%;
+      /* background-color: rgb(255, 255, 255); */
+    }
+  
+    .top{
+      padding: 0% 0%;
+    }
+  
+    .post_container img{
+      width:100%;
+      max-width:1400px;
+    }
+  
+    .content{
+      padding: 10px;
+      /* background-color: white; */
+    }
+    
+  }
+  
+  
+  
+  
+  .post_container pre{
+    background-color: var(--codebg);
+  }
+  
+  .post_container code{
+    padding: 20px 0px;;
+  }
+  
+  
+  /* .content:not(pre) > code{
+    color: rgb(45, 255, 133);
+    font-weight: bold;
+    font-size: 1.3em;
+  } */
+
+  .content code{
+    color: var(--code);
+    /* font-size: 1.3em; */
+  }
+  
+
+
+
+
+ /* SYntax rules/\  */
+
+ 

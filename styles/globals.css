@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  /* Your default theme */
+  --bg: white;
+  --bglt:rgb(233, 233, 233);
+  --fg: rgb(22, 22, 22);
+  --fglt:rgb(17, 13, 13);
+  --codebg: rgb(14, 13, 15);
+  --code:#ff5e78;
+}
+
+[data-theme='dark'] {
+  --bg: rgb(22, 22, 22);
+  --bglt:rgb(17, 13, 13);
+  --fg: white;
+  --fglt:rgb(233, 233, 233);
+  --codebg: rgb(14, 13, 15);
+  --code:rgb(255, 195, 85);
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--bg);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(84, 62, 207);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+

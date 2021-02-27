@@ -1,0 +1,18 @@
+.profile_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    font-size: 32px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  color:var(--fg);
+}
